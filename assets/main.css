@@ -1,0 +1,22 @@
+main.css
+body {
+
+}
+
+
+div.gallery {
+  margin: 13px;
+  float: left;
+  width: 256px;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.bottomimage {
+	margin-top: 50px;
+	width: 1920px;
+}
