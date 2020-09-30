@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+
+}
+
+
+.column {
+  float: left;
+  width: 14.285%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: zoom-in; 
+}
+
+.column img:hover {
+  opacity: 3;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*expanded image*/
+.container {
+  position: relative;
+  max-height: auto;
+  max-width: auto;
+  display: none;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #39ff14;
+  font-size: 100px;
+  cursor: zoom-out;
+}
